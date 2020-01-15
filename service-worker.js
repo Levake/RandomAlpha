@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Levake/RandomTestAlpha/precache-manifest.99bc9e8401e6d83e75c5a6590030f592.js"
+  "/RandomAlpha/precache-manifest.75735a6858e7da8430597b51e3117520.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Levake/RandomTestAlpha/index.html", {
+workbox.routing.registerNavigationRoute("/RandomAlpha/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
